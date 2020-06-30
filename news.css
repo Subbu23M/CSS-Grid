@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: whitesmoke;
+}
+
+.gallery {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (300px)[auto-fill];
+      grid-template-columns: repeat(auto-fill, 300px);
+  -webkit-column-gap: 5px;
+          column-gap: 5px;
+  row-gap: 10px;
+}
+
+.gallery img {
+  width: 30%;
+}
+/*# sourceMappingURL=news.css.map */
